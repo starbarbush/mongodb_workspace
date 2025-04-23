@@ -20,3 +20,7 @@ db.prenda.insertOne(
 //Listar documento
 
 db.prenda.find()
+
+//Contar documentos
+
+db.prenda.find().count()
